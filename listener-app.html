@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Testing RabbitMQ Web Stomp</title>
+
+    <!-- From: http://cdn.sockjs.org/ --> 
+    <script src="sockjs-0.3.js"></script>
+
+    <!-- From RabbitMQ-Web-Stomp examples -->
+    <script src="stomp.js"></script>
+
+    <!-- Our example app -->
+    <script src="listener-app.js"></script>
+
+    <style>
+      #output {
+        border: 1px solid black;
+        min-height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>Waiting for messages</h1>
+
+    <div id="output">
+      <!-- incoming messages will be printed here -->
+    </div>
+
+    </script>
+  </body>
+</html>
+
